@@ -1,0 +1,6 @@
+language: js
+install: 
+    - npm install
+    - bower install
+script: 
+    - grunt dojo:build
