@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-     "grunt": "^1.0.1",
+    "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-dojo": "^1.1.2"
   },
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/qiuzuhui/travis-test/issues"
   },
-  "homepage": "https://github.com/qiuzuhui/travis-test#readme"
+  "homepage": "https://github.com/qiuzuhui/travis-test#readme",
+  "dependencies": {
+    "longjohn": "^0.2.12"
+  }
 }

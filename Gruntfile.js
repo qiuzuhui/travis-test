@@ -1,4 +1,6 @@
 // most time this file no need to change. just update package.json and profile.js
+  require('longjohn');
+
 module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-dojo');
   
