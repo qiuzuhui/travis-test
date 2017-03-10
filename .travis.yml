@@ -1,5 +1,5 @@
 language: js
-before_script:
+before_install:
     - npm install -g bower
 install: 
     - npm install
