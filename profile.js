@@ -1,7 +1,7 @@
 var profile = {
     basePath: './',
     releaseDir: './build',
-    releaseName: 'applications',
+    releaseName: 'demo',
     action: 'release',
     cssOptimize: 'comments',
     mini: true,
@@ -18,11 +18,11 @@ var profile = {
     packages: [
         {
                 name: "demo",
-                location: "../../src"
+                location: "./src"
         }
     ],
     layers: {
-        'portal/layer': {// just for exclude
+        'demo/layer': {// just for exclude
             include: [
                 "demo/Demo",
             ]
