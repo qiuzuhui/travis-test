@@ -17,6 +17,14 @@ var profile = {
     },
     packages: [
         {
+            name: 'dijit',
+            location: './bower_components/dijit'
+        },
+        {
+            name: 'dojo',
+            location: './bower_components/dojo'
+        },
+        {
                 name: "demo",
                 location: "./src"
         }

@@ -17,7 +17,7 @@
   "dependencies": {
     "dojo": "^1.12.2",
     "dijit": "^1.12.2",
-    "util": "dojo-util#9d92e7014ae08af9717b251a113bc2f1cafe2d7e"
-
+    "util": "dojo-util#9d92e7014ae08af9717b251a113bc2f1cafe2d7e",
+    "dojox": "^1.12.2"
   }
 }
